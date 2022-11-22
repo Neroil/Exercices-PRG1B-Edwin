@@ -29,7 +29,7 @@ int main() {
 
 void carreMagique(vector<vector<int>> &carre, size_t n) {
     size_t noLigne = n - 1, noColonne = n/2, k = 0;
-    size_t noLigneOld, noColonneOld;
+    size_t noLigneOld = noLigne, noColonneOld = noColonne;
     for (; k < n*n; ++k){
         if (carre.at(noLigne).at(noColonne) == 0){
             noLigne   = n ? 0 : noLigne;
