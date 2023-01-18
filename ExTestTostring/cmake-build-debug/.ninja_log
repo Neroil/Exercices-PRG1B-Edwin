@@ -1,0 +1,19 @@
+# ninja log v5
+1	727	6933310258475416	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+730	872	6933310259913230	ExTestTostring.exe	d7b082598fe46090
+10	362	6933310684010252	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+363	479	6933310685138438	ExTestTostring.exe	d7b082598fe46090
+2	392	6933311789044626	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+393	492	6933311789995609	ExTestTostring.exe	d7b082598fe46090
+3	354	6933312836849585	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+354	447	6933312837756750	ExTestTostring.exe	d7b082598fe46090
+2	353	6933312986124623	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+353	447	6933312987022280	ExTestTostring.exe	d7b082598fe46090
+2	898	6933317121054598	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+898	1129	6933317123340623	ExTestTostring.exe	d7b082598fe46090
+3	373	6933318375088748	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+374	466	6933318375975229	ExTestTostring.exe	d7b082598fe46090
+3	368	6933318465289535	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+368	469	6933318466278645	ExTestTostring.exe	d7b082598fe46090
+2	376	6933319429876425	CMakeFiles/ExTestTostring.dir/main.cpp.obj	ce241eb8982932d
+377	470	6933319430785673	ExTestTostring.exe	d7b082598fe46090
