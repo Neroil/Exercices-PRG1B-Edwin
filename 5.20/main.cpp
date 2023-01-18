@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <iomanip>
 
 using namespace std;
 
@@ -28,30 +29,35 @@ int main() {
 }
 
 void carreMagique(vector<vector<int>> &carre, size_t n) {
-    size_t noLigne = n - 1, noColonne = n/2, k = 0;
+    size_t noLigne = n - 1, noColonne = n/2, k = 1;
     size_t noLigneOld = noLigne, noColonneOld = noColonne;
-    for (; k < n*n; ++k){
-        if (carre.at(noLigne).at(noColonne) == 0){
-            noLigne   = n ? 0 : noLigne;
-            noColonne = n ? 0 : noColonne;
-            carre.at(noLigne).at(noColonne) = (int)k;
-            noLigneOld = noLigne++;
-            noColonneOld = noColonne++;
-        } else {
-            noLigne = noLigneOld;
-            noColonne = noColonneOld;
-            --noLigne;
+    for (; k <= n*n; ++k){
+
+        carre.at(noLigne).at(noColonne) = (int)k;
+        noLigneOld   =   noLigne++;
+        noColonneOld = noColonne++;
+
+        if (noLigne == n){
+            noLigne = 0;
+        }
+        if (noColonne == n){
+            noColonne = 0;
         }
 
+        if (carre.at(noLigne).at(noColonne) != 0){
+
+            noLigne   = noLigneOld;
+            noColonne = noColonneOld;
+            --noLigne;
+
+        }
     }
-
-
 }
 
 void affichageMatrice(const vector<vector<int>> &carre){
     for (size_t i = 0; i < carre.size(); ++i){
         for (size_t j = 0; j < carre.size(); ++j){
-            cout << carre.at(i).at(j) << " ";
+            cout << setw(2) << carre.at(i).at(j) << " ";
         }
         cout << endl;
     }

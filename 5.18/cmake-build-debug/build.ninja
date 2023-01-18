@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: 5_19
+# Project: 5_18
 # Configurations: Debug
 # =============================================================================
 
@@ -39,49 +39,49 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/edwin/Desktop/HEIG-VD/PRBG1/Exercices/5.19/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/edwin/Desktop/HEIG-VD/PRBG1/Exercices/5.18/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 5_19
+# Object build statements for EXECUTABLE target 5_18
 
 
 #############################################
-# Order-only phony target for 5_19
+# Order-only phony target for 5_18
 
-build cmake_object_order_depends_target_5_19: phony || CMakeFiles/5_19.dir
+build cmake_object_order_depends_target_5_18: phony || CMakeFiles/5_18.dir
 
-build CMakeFiles/5_19.dir/main.cpp.obj: CXX_COMPILER__5_19_Debug C$:/Users/edwin/Desktop/HEIG-VD/PRBG1/Exercices/5.19/main.cpp || cmake_object_order_depends_target_5_19
-  DEP_FILE = CMakeFiles\5_19.dir\main.cpp.obj.d
+build CMakeFiles/5_18.dir/main.cpp.obj: CXX_COMPILER__5_18_Debug C$:/Users/edwin/Desktop/HEIG-VD/PRBG1/Exercices/5.18/main.cpp || cmake_object_order_depends_target_5_18
+  DEP_FILE = CMakeFiles\5_18.dir\main.cpp.obj.d
   FLAGS = -Wall -Wextra -Wconversion -Wsign-conversion -pedantic -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\5_19.dir
-  OBJECT_FILE_DIR = CMakeFiles\5_19.dir
-  TARGET_COMPILE_PDB = CMakeFiles\5_19.dir\
-  TARGET_PDB = 5_19.pdb
+  OBJECT_DIR = CMakeFiles\5_18.dir
+  OBJECT_FILE_DIR = CMakeFiles\5_18.dir
+  TARGET_COMPILE_PDB = CMakeFiles\5_18.dir\
+  TARGET_PDB = 5_18.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 5_19
+# Link build statements for EXECUTABLE target 5_18
 
 
 #############################################
-# Link the executable 5_19.exe
+# Link the executable 5_18.exe
 
-build 5_19.exe: CXX_EXECUTABLE_LINKER__5_19_Debug CMakeFiles/5_19.dir/main.cpp.obj
+build 5_18.exe: CXX_EXECUTABLE_LINKER__5_18_Debug CMakeFiles/5_18.dir/main.cpp.obj
   FLAGS = -Wall -Wextra -Wconversion -Wsign-conversion -pedantic -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\5_19.dir
+  OBJECT_DIR = CMakeFiles\5_18.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\5_19.dir\
-  TARGET_FILE = 5_19.exe
-  TARGET_IMPLIB = lib5_19.dll.a
-  TARGET_PDB = 5_19.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\5_18.dir\
+  TARGET_FILE = 5_18.exe
+  TARGET_IMPLIB = lib5_18.dll.a
+  TARGET_PDB = 5_18.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.19\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.18\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.19\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.19 -BC:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.19\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.18\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.18 -BC:\Users\edwin\Desktop\HEIG-VD\PRBG1\Exercices\5.18\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -102,7 +102,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 5_19: phony 5_19.exe
+build 5_18: phony 5_18.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,9 +110,9 @@ build 5_19: phony 5_19.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/edwin/Desktop/HEIG-VD/PRBG1/Exercices/5.19/cmake-build-debug
+# Folder: C:/Users/edwin/Desktop/HEIG-VD/PRBG1/Exercices/5.18/cmake-build-debug
 
-build all: phony 5_19.exe
+build all: phony 5_18.exe
 
 # =============================================================================
 # Built-in targets
